@@ -11,12 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
     <title>PW HIMI PERSIS JABAR</title>
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="logohimipersisjabar.png">
 </head>
 <body>
   <nav class="navbar">
     <div class="logo">
-      <img src="logo.png" alt="HIMI PERSIS JABAR Logo" width="70" height="50">
+      <img src="logohimipersisjabar.png" alt="HIMI PERSIS JABAR Logo" width="70" height="50">
     </div>
     <div class="menu">
       <div class="menu-links">
@@ -25,15 +25,15 @@
         <a href="#visi-misi" class="menu-link">Visi & Misi</a>
         <a href="#struktur" class="menu-link">Struktur</a>
       </div>
-      @guest
+      <!-- @guest -->
         <a href="#">Login</a>
-      @else
+      <!-- @else
         <a href="{{ route('dashboards.index') }}">Dashboard</a>
         <form method="POST" action="{{ route('logout') }}">
           @csrf
             <button type="submit" class="logout">{{ __('Logout') }}</button>
         </form>
-      @endguest
+      @endguest -->
     </div>
     <div class="menu-btn" id="menu-btn">
       <i class="fa-solid fa-bars"></i>
