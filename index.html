@@ -62,21 +62,21 @@
   <div class="jumbotron">
       <div class="jumbotron-content">
         <div class="jumbotron-text">
-          <!-- <p>Pimpinan Wilayah Himpunan Mahasiswi Jawa Barat adalah salah satu organisasi masyarakat Islam di Wilayah Jawa Barat, beranggotakan para perempuan yang berada dalam jenjang kemahasiswaan. Lahir sebagai otonom dari organisasi masyarakat Persatuan Islam dengan arah gerakan:</p>
-          <p>Keagamaan | Sosial | Intelektual | Keperempuanan</p> -->
-          <p>{!! nl2br($pengaturan->deskripsi) !!}</p>
+          <p>Pimpinan Wilayah Himpunan Mahasiswi Jawa Barat adalah salah satu organisasi masyarakat Islam di Wilayah Jawa Barat, beranggotakan para perempuan yang berada dalam jenjang kemahasiswaan. Lahir sebagai otonom dari organisasi masyarakat Persatuan Islam dengan arah gerakan:</p>
+          <p>Keagamaan | Sosial | Intelektual | Keperempuanan</p>
+          <!-- <p>{!! nl2br($pengaturan->deskripsi) !!}</p> -->
         </div>
         <div class="jumbotron-image">
-          <img src="{{ asset('/storage/pengaturans/'.$pengaturan->image) }}" alt="HIMI PERSIS JABAR Logo">
+          <img src="logohimipersisjabar.png" alt="HIMI PERSIS JABAR Logo">
         </div>
       </div>
     </div>
   </div>
 
   <div class="video-container" id="tentang">
-      <img class="thumbnail" src="{{ asset('/storage/pengaturans/'.$pengaturan->thumbnail) }}" alt="Thumbnail">
+      <img class="thumbnail" src="SUSUNAN PENGURUS.png" alt="Thumbnail">
         <video autoplay loop class="video">
-            <source src="{{ asset('/storage/pengaturans/'.$pengaturan->video) }}">
+            <source src="PROFIL HIMI PERSIS JABAR.mp4">
             <audio muted style="display:none;"></audio>
             Your browser does not support the video tag.
         </video>
@@ -91,8 +91,8 @@
       </div>
       <div class="card-body">
         <blockquote class="blockquote mb-0">
-          <!-- <p>“Membumikan nilai-nilai ulul ilmi dalam Kiprah Himi Persis sebagai Organisasi Kemahasiswaan berbasis keperempuanan di Jawa Barat.”</p> -->
-          <p>{!! nl2br($pengaturan->visi) !!}</p>
+          <p>“Membumikan nilai-nilai ulul ilmi dalam Kiprah Himi Persis sebagai Organisasi Kemahasiswaan berbasis keperempuanan di Jawa Barat.”</p>
+          <!-- <p>{!! nl2br($pengaturan->visi) !!}</p> -->
         </blockquote>
       </div>
     </div>
@@ -106,14 +106,14 @@
       </div>
       <div class="card-body">
         <blockquote class="blockquote mb-0">
-          <!-- <ol>
+          <ol>
             <li>Peningkatan profesionalitas organisasi dalam bidang penertiban administrasi keorganisasian.</li>
             <li>Penguatan kultur pengkaderan baik formal, non formal maupun emosional kader.</li>
             <li>Meningkatkan peranan himi persis sebagai organisasi kader / otonom jam'iyyah, organisasi keperempuanan dan organisasi kemahasiswaan.</li>
             <li>Berkontribusi dalam penyelesaian permasalahan keperempuanan di Jawa Barat.</li>
             <li>Membangun sinergi dengan aliansi strategis yang sejalan dengan Himi Persis Jawa Barat.</li>
-          </ol> -->
-          <p>{!! nl2br($pengaturan->misi) !!}</p>
+          </ol>
+          <!-- <p>{!! nl2br($pengaturan->misi) !!}</p> -->
         </blockquote>
       </div>
     </div>
@@ -122,7 +122,7 @@
     <div id="struktur" style="padding-top: 90px;">
     <div class="container">
       <div class="struktur">
-      <img src="{{ asset('/storage/pengaturans/'.$pengaturan->struktur) }}" alt="Struktur Himi Persis Jabar" width="100%" class="rounded">
+      <img src="SUSUNAN PENGURUS.png" alt="Struktur Himi Persis Jabar" width="100%" class="rounded">
       </div>
     </div>
     </div>
@@ -194,7 +194,7 @@
       </div>
       <section>
         <ul class="socials">
-          <li><a href="https://www.instagram.com/{{ $pengaturan->sosmed }}" class="fa-brands fa-instagram" target="_blank"></a></li>
+          <li><a href="https://www.instagram.com/himipersisjabar" class="fa-brands fa-instagram" target="_blank"></a></li>
           <li><a href="#" class="fa-brands fa-facebook"></a></li>
           <li><a href="#" class="fa-brands fa-tiktok"></a></li>
           <li><a href="#" class="fa-brands fa-linkedin"></a></li>
